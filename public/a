@@ -1,0 +1,287 @@
+[0;1;31m●[0m chilengue-devops
+    State: [0;1;31mdegraded[0m
+     Jobs: 0 queued
+   Failed: 1 units
+    Since: Sun 2023-08-27 23:59:56 CAT; 19h ago
+   CGroup: /
+           ├─[0;38;5;245m285 bpfilter_umh[0m
+           ├─user.slice 
+           │ └─user-1000.slice 
+           │   ├─[0;4muser@1000.service[0m [0;1;39m…[0m
+           │   │ ├─gsd-xsettings.service 
+           │   │ │ └─[0;38;5;245m1840 /usr/libexec/gsd-xsettings[0m
+           │   │ ├─gvfs-goa-volume-monitor.service 
+           │   │ │ └─[0;38;5;245m1380 /usr/libexec/gvfs-goa-volume-monitor[0m
+           │   │ ├─gsd-power.service 
+           │   │ │ └─[0;38;5;245m1827 /usr/libexec/gsd-power[0m
+           │   │ ├─xdg-permission-store.service 
+           │   │ │ └─[0;38;5;245m1779 /usr/libexec/xdg-permission-store[0m
+           │   │ ├─xdg-document-portal.service 
+           │   │ │ └─[0;38;5;245m2020 /usr/libexec/xdg-document-portal[0m
+           │   │ ├─tracker-store.service 
+           │   │ │ └─[0;38;5;245m19248 /usr/libexec/tracker-store[0m
+           │   │ ├─xdg-desktop-portal.service 
+           │   │ │ └─[0;38;5;245m2275 /usr/libexec/xdg-desktop-portal[0m
+           │   │ ├─gsd-sound.service 
+           │   │ │ └─[0;38;5;245m1836 /usr/libexec/gsd-sound[0m
+           │   │ ├─gsd-rfkill.service 
+           │   │ │ └─[0;38;5;245m1831 /usr/libexec/gsd-rfkill[0m
+           │   │ ├─gsd-usb-protection.service 
+           │   │ │ └─[0;38;5;245m1837 /usr/libexec/gsd-usb-protection[0m
+           │   │ ├─gsd-print-notifications.service 
+           │   │ │ ├─[0;38;5;245m1829 /usr/libexec/gsd-print-notifications[0m
+           │   │ │ └─[0;38;5;245m1921 /usr/libexec/gsd-printer[0m
+           │   │ ├─evolution-calendar-factory.service 
+           │   │ │ └─[0;38;5;245m2011 /usr/libexec/evolution-calendar-factory[0m
+           │   │ ├─gsd-a11y-settings.service 
+           │   │ │ └─[0;38;5;245m1819 /usr/libexec/gsd-a11y-settings[0m
+           │   │ ├─gsd-wwan.service 
+           │   │ │ └─[0;38;5;245m1839 /usr/libexec/gsd-wwan[0m
+           │   │ ├─pulseaudio.service 
+           │   │ │ └─[0;38;5;245m1195 /usr/bin/pulseaudio --daemonize=no --log-target=journal[0m
+           │   │ ├─gnome-launched-chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop-4569.scope 
+           │   │ │ ├─[0;38;5;245m 4569 /opt/google/chrome/chrome --profile-directory=Default --app-id=agimnkijcaahngcdmfeangaknmldooml[0m
+           │   │ │ ├─[0;38;5;245m 4573 cat[0m
+           │   │ │ ├─[0;38;5;245m 4574 cat[0m
+           │   │ │ ├─[0;38;5;245m 4576 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/jose/.config/google-chrome/Crash Reports --metrics-dir=/home/jose/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=115.0.5790.110 --initial-client-fd=5 --shared-client-connection[0m
+           │   │ │ ├─[0;38;5;245m 4578 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/jose/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=115.0.5790.110 --initial-client-fd=4 --shared-client-connection[0m
+           │   │ │ ├─[0;38;5;245m 4584 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable[0m
+           │   │ │ ├─[0;38;5;245m 4585 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable[0m
+           │   │ │ ├─[0;38;5;245m 4586 /opt/google/chrome/nacl_helper[0m
+           │   │ │ ├─[0;38;5;245m 4589 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable[0m
+           │   │ │ ├─[0;38;5;245m 4609 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4619 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --network-service-scheduler --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4639 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4738 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --extension-process --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=6110335562 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4751 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --extension-process --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=6111841469 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4812 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --extension-process --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=52 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=6121317241 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 4928 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 7744 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=29 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=12120895243 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 7923 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=133 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=12174633931 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 7932 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=18 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=12176007229 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 7965 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=38 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=12184277589 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 8854 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=13133751825 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m 9162 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=168 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=13531613553 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m11794 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=184 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=17269380172 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m15899 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=222 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=23212428803 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m16180 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=225 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=23698761229 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m20944 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --extension-process --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=295 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=34270634085 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m21013 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=297 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=34362852994 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m21159 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=298 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=34454095738 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m21647 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=299 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=34571687892 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ ├─[0;38;5;245m22396 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=306 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=35022909467 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ │ └─[0;38;5;245m22979 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=4576 --enable-crash-reporter=b387244b-378d-46c8-8d19-35860eeb9466, --origin-trial-disabled-features=WebGPU --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=308 --time-ticks-at-unix-epoch=-1693201175326794 --launch-time-ticks=35308522986 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,18054730098487026044,12401874041978573100,262144[0m
+           │   │ ├─gsd-screensaver-proxy.service 
+           │   │ │ └─[0;38;5;245m1833 /usr/libexec/gsd-screensaver-proxy[0m
+           │   │ ├─gsd-media-keys.service 
+           │   │ │ └─[0;38;5;245m1826 /usr/libexec/gsd-media-keys[0m
+           │   │ ├─gvfs-daemon.service 
+           │   │ │ ├─[0;38;5;245m 1281 /usr/libexec/gvfsd[0m
+           │   │ │ ├─[0;38;5;245m 1301 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes[0m
+           │   │ │ ├─[0;38;5;245m 1969 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0[0m
+           │   │ │ ├─[0;38;5;245m 7812 /usr/libexec/gvfsd-google --spawner :1.3 /org/gtk/gvfs/exec_spaw/1[0m
+           │   │ │ ├─[0;38;5;245m11331 /usr/libexec/gvfsd-http --spawner :1.3 /org/gtk/gvfs/exec_spaw/2[0m
+           │   │ │ ├─[0;38;5;245m15252 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/3[0m
+           │   │ │ └─[0;38;5;245m15292 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/5[0m
+           │   │ ├─evolution-source-registry.service 
+           │   │ │ └─[0;38;5;245m1791 /usr/libexec/evolution-source-registry[0m
+           │   │ ├─gvfs-udisks2-volume-monitor.service 
+           │   │ │ └─[0;38;5;245m1320 /usr/libexec/gvfs-udisks2-volume-monitor[0m
+           │   │ ├─gsd-sharing.service 
+           │   │ │ └─[0;38;5;245m1834 /usr/libexec/gsd-sharing[0m
+           │   │ ├─init.scope 
+           │   │ │ ├─[0;38;5;245m1116 /lib/systemd/systemd --user[0m
+           │   │ │ └─[0;38;5;245m1117 (sd-pam)[0m
+           │   │ ├─gsd-smartcard.service 
+           │   │ │ └─[0;38;5;245m1835 /usr/libexec/gsd-smartcard[0m
+           │   │ ├─gsd-housekeeping.service 
+           │   │ │ └─[0;38;5;245m1823 /usr/libexec/gsd-housekeeping[0m
+           │   │ ├─gsd-wacom.service 
+           │   │ │ └─[0;38;5;245m1838 /usr/libexec/gsd-wacom[0m
+           │   │ ├─snap.snap-store.ubuntu-software-a73929f4-72f0-43a5-be0a-a48f3969ba69.scope 
+           │   │ │ └─[0;38;5;245m1984 /snap/snap-store/959/usr/bin/snap-store --gapplication-service[0m
+           │   │ ├─gvfs-gphoto2-volume-monitor.service 
+           │   │ │ └─[0;38;5;245m1368 /usr/libexec/gvfs-gphoto2-volume-monitor[0m
+           │   │ ├─gnome\x2dsession\x2dmanager.slice 
+           │   │ │ └─gnome-session-manager@ubuntu.service 
+           │   │ │   ├─[0;38;5;245m1686 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu[0m
+           │   │ │   ├─[0;38;5;245m1844 /usr/libexec/evolution-data-server/evolution-alarm-notify[0m
+           │   │ │   ├─[0;38;5;245m1845 /usr/libexec/gsd-disk-utility-notify[0m
+           │   │ │   └─[0;38;5;245m2440 update-notifier[0m
+           │   │ ├─gnome-session-monitor.service 
+           │   │ │ └─[0;38;5;245m1680 /usr/libexec/gnome-session-ctl --monitor[0m
+           │   │ ├─gsd-datetime.service 
+           │   │ │ └─[0;38;5;245m1821 /usr/libexec/gsd-datetime[0m
+           │   │ ├─xdg-desktop-portal-gtk.service 
+           │   │ │ └─[0;38;5;245m2279 /usr/libexec/xdg-desktop-portal-gtk[0m
+           │   │ ├─gnome-shell-x11.service 
+           │   │ │ ├─[0;38;5;245m1711 /usr/bin/gnome-shell[0m
+           │   │ │ ├─[0;38;5;245m1751 ibus-daemon --panel disable --xim[0m
+           │   │ │ ├─[0;38;5;245m1755 /usr/libexec/ibus-dconf[0m
+           │   │ │ ├─[0;38;5;245m1756 /usr/libexec/ibus-extension-gtk3[0m
+           │   │ │ ├─[0;38;5;245m1759 /usr/libexec/ibus-x11 --kill-daemon[0m
+           │   │ │ └─[0;38;5;245m1849 /usr/libexec/ibus-engine-simple[0m
+           │   │ ├─at-spi-dbus-bus.service 
+           │   │ │ ├─[0;38;5;245m1657 /usr/libexec/at-spi-bus-launcher[0m
+           │   │ │ ├─[0;38;5;245m1663 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3[0m
+           │   │ │ └─[0;38;5;245m1772 /usr/libexec/at-spi2-registryd --use-gnome-session[0m
+           │   │ ├─apps.slice 
+           │   │ │ └─apps-org.gnome.Terminal.slice 
+           │   │ │   ├─vte-spawn-91c771cc-8c5c-4b46-9011-34afdb501a76.scope 
+           │   │ │   │ ├─[0;38;5;245m21187 bash[0m
+           │   │ │   │ ├─[0;38;5;245m21211 /usr/share/code/code .[0m
+           │   │ │   │ ├─[0;38;5;245m21214 /usr/share/code/code --type=zygote --no-zygote-sandbox[0m
+           │   │ │   │ ├─[0;38;5;245m21215 /usr/share/code/code --type=zygote[0m
+           │   │ │   │ ├─[0;38;5;245m21217 /usr/share/code/code --type=zygote[0m
+           │   │ │   │ ├─[0;38;5;245m21231 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/jose/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=b23c7370-8feb-438c-a3c8-f0f978945a89&iid=b23c7370-8feb-438c-a3c8-f0f978945a89&sid=b23c7370-8feb-438c-a3c8-f0f978945a89 --annotation=IsOfficialBuild=1 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.80.1 --annotation=exe=/usr/share/code/code . --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=22.3.14 --initial-client-fd=44 --shared-client-connection[0m
+           │   │ │   │ ├─[0;38;5;245m21246 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21261 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21274 /usr/share/code/code --type=renderer --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --first-renderer-process --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1693208149981782 --launch-time-ticks=34478392327 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:e0c29e69-73ad-44db-b066-a0a7c8d71e9a[0m
+           │   │ │   │ ├─[0;38;5;245m21298 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21299 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21300 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21301 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --inspect-port=0 --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m21394 /usr/share/code/code --ms-enable-electron-run-as-node --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/4f217717ee3b2fdb01b4/tscancellation-95c343a4cf2f783aafd0.tmp* --globalPlugins @styled/typescript-styled-plugin,@vsintellicode/typescript-intellicode-plugin,ms-vsintellicode-typescript --pluginProbeLocations /home/jose/.vscode/extensions/styled-components.vscode-styled-components-1.7.8,/home/jose/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30,/home/jose/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30 --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc[0m
+           │   │ │   │ ├─[0;38;5;245m21395 /usr/share/code/code --ms-enable-electron-run-as-node --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/4f217717ee3b2fdb01b4/tscancellation-37d993a594190582887c.tmp* --globalPlugins @styled/typescript-styled-plugin,@vsintellicode/typescript-intellicode-plugin,ms-vsintellicode-typescript --pluginProbeLocations /home/jose/.vscode/extensions/styled-components.vscode-styled-components-1.7.8,/home/jose/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30,/home/jose/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30 --locale en --noGetErrOnBackgroundUpdate --validateDefaultNpmLocation --useNodeIpc[0m
+           │   │ │   │ ├─[0;38;5;245m21420 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/css-language-features/server/dist/node/cssServerMain --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21421 /usr/share/code/code --ms-enable-electron-run-as-node /home/jose/.vscode/extensions/mtxr.sqltools-0.28.0/dist/languageserver.js --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21422 /usr/share/code/code --ms-enable-electron-run-as-node /home/jose/.vscode/extensions/mongodb.mongodb-vscode-1.2.1/dist/languageServer.js --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21444 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/jose/.cache/typescript/5.1 --enableTelemetry --typesMapLocation /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation[0m
+           │   │ │   │ ├─[0;38;5;245m21461 /usr/share/code/code --ms-enable-electron-run-as-node /home/jose/.vscode/extensions/dbaeumer.vscode-eslint-2.4.2/server/out/eslintServer.js --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21480 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21496 /usr/share/code/code --ms-enable-electron-run-as-node /home/jose/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7/dist/server/server.js --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m21570 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=21301[0m
+           │   │ │   │ ├─[0;38;5;245m22845 /usr/share/code/code --type=renderer --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --lang=en-US --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=11 --time-ticks-at-unix-epoch=-1693208149981782 --launch-time-ticks=35239248001 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess --vscode-window-config=vscode:7a2a40c3-73aa-4cc8-94bb-668c8c00bce4[0m
+           │   │ │   │ ├─[0;38;5;245m22861 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m22878 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --inspect-port=0 --crashpad-handler-pid=21231 --enable-crash-reporter=a043e5d4-c5e4-4c77-8234-4d8172e08351,no_channel --user-data-dir=/home/jose/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --bypasscsp-schemes --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --streaming-schemes --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,4111592376341989152,7400320487780375939,131072 --disable-features=CalculateNativeWinOcclusion,SpareRendererForSitePerProcess[0m
+           │   │ │   │ ├─[0;38;5;245m22897 /usr/share/code/code --ms-enable-electron-run-as-node /home/jose/.vscode/extensions/mtxr.sqltools-0.28.0/dist/languageserver.js --node-ipc --clientProcessId=22878[0m
+           │   │ │   │ ├─[0;38;5;245m22899 /usr/share/code/code --ms-enable-electron-run-as-node /usr/share/code/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=22878[0m
+           │   │ │   │ ├─[0;38;5;245m22998 sudo systemctl status[0m
+           │   │ │   │ ├─[0;38;5;245m22999 systemctl status[0m
+           │   │ │   │ └─[0;38;5;245m23000 pager[0m
+           │   │ │   ├─vte-spawn-94b4bc27-f5f5-46fd-a516-e9ff1b8518d9.scope 
+           │   │ │   │ ├─[0;38;5;245m20540 bash[0m
+           │   │ │   │ ├─[0;38;5;245m21053 npm start[0m
+           │   │ │   │ ├─[0;38;5;245m21064 node /home/jose/Documents/code/Node js/React/my-app/node_modules/.bin/react-scripts start[0m
+           │   │ │   │ └─[0;38;5;245m21071 /usr/local/bin/node /home/jose/Documents/code/Node js/React/my-app/node_modules/react-scripts/scripts/start.js[0m
+           │   │ │   ├─gnome-terminal-server.service 
+           │   │ │   │ └─[0;38;5;245m20532 /usr/libexec/gnome-terminal-server[0m
+           │   │ │   └─vte-spawn-0bbe66bc-c515-4be5-b6ea-45b4bb762151.scope 
+           │   │ │     └─[0;38;5;245m6002 ping localhost[0m
+           │   │ ├─gvfs-metadata.service 
+           │   │ │ └─[0;38;5;245m2002 /usr/libexec/gvfsd-metadata[0m
+           │   │ ├─dbus.service 
+           │   │ │ ├─[0;38;5;245m 1226 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only[0m
+           │   │ │ ├─[0;38;5;245m 1384 /usr/libexec/goa-daemon[0m
+           │   │ │ ├─[0;38;5;245m 1429 /usr/libexec/goa-identity-service[0m
+           │   │ │ ├─[0;38;5;245m 1450 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets[0m
+           │   │ │ ├─[0;38;5;245m 1763 /usr/libexec/ibus-portal[0m
+           │   │ │ ├─[0;38;5;245m 1780 /usr/libexec/gnome-shell-calendar-server[0m
+           │   │ │ ├─[0;38;5;245m 1794 /usr/libexec/dconf-service[0m
+           │   │ │ ├─[0;38;5;245m 1810 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications[0m
+           │   │ │ ├─[0;38;5;245m 2244 /usr/bin/nautilus --gapplication-service[0m
+           │   │ │ ├─[0;38;5;245m 2457 /usr/bin/gnome-calendar --gapplication-service[0m
+           │   │ │ ├─[0;38;5;245m 2461 /usr/bin/seahorse --gapplication-service[0m
+           │   │ │ └─[0;38;5;245m20119 /usr/bin/gedit --gapplication-service[0m
+           │   │ ├─evolution-addressbook-factory.service 
+           │   │ │ └─[0;38;5;245m2055 /usr/libexec/evolution-addressbook-factory[0m
+           │   │ ├─tracker-miner-fs.service 
+           │   │ │ └─[0;38;5;245m1197 /usr/libexec/tracker-miner-fs[0m
+           │   │ ├─gvfs-mtp-volume-monitor.service 
+           │   │ │ └─[0;38;5;245m1457 /usr/libexec/gvfs-mtp-volume-monitor[0m
+           │   │ ├─gsd-keyboard.service 
+           │   │ │ └─[0;38;5;245m1824 /usr/libexec/gsd-keyboard[0m
+           │   │ └─gvfs-afc-volume-monitor.service 
+           │   │   └─[0;38;5;245m1446 /usr/libexec/gvfs-afc-volume-monitor[0m
+           │   └─session-1.scope 
+           │     ├─[0;38;5;245m1002 gdm-session-worker [pam/gdm-autologin][0m
+           │     ├─[0;38;5;245m1200 /usr/bin/gnome-keyring-daemon --daemonize --login[0m
+           │     ├─[0;38;5;245m1204 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu[0m
+           │     ├─[0;38;5;245m1206 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3[0m
+           │     ├─[0;38;5;245m1541 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu[0m
+           │     └─[0;38;5;245m1621 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu[0m
+           ├─init.scope 
+           │ └─[0;38;5;245m1 /sbin/init splash[0m
+           └─system.slice 
+             ├─irqbalance.service 
+             │ └─[0;38;5;245m778 /usr/sbin/irqbalance --foreground[0m
+             ├─apache2.service 
+             │ ├─[0;38;5;245m1052 /usr/sbin/apache2 -k start[0m
+             │ ├─[0;38;5;245m1053 /usr/sbin/apache2 -k start[0m
+             │ └─[0;38;5;245m1054 /usr/sbin/apache2 -k start[0m
+             ├─systemd-udevd.service 
+             │ └─[0;38;5;245m359 /lib/systemd/systemd-udevd[0m
+             ├─whoopsie.service 
+             │ └─[0;38;5;245m1147 /usr/bin/whoopsie -f[0m
+             ├─cron.service 
+             │ └─[0;38;5;245m763 /usr/sbin/cron -f[0m
+             ├─thermald.service 
+             │ └─[0;38;5;245m792 /usr/sbin/thermald --systemd --dbus-enable --adaptive[0m
+             ├─polkit.service 
+             │ └─[0;38;5;245m782 /usr/lib/policykit-1/polkitd --no-debug[0m
+             ├─networkd-dispatcher.service 
+             │ └─[0;38;5;245m779 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers[0m
+             ├─rtkit-daemon.service 
+             │ └─[0;38;5;245m1228 /usr/libexec/rtkit-daemon[0m
+             ├─bluetooth.service 
+             │ └─[0;38;5;245m1398 /usr/lib/bluetooth/bluetoothd[0m
+             ├─accounts-daemon.service 
+             │ └─[0;38;5;245m758 /usr/lib/accountsservice/accounts-daemon[0m
+             ├─wpa_supplicant.service 
+             │ └─[0;38;5;245m794 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant[0m
+             ├─ModemManager.service 
+             │ └─[0;38;5;245m940 /usr/sbin/ModemManager[0m
+             ├─nmbd.service 
+             │ └─[0;38;5;245m1146 /usr/sbin/nmbd --foreground --no-process-group[0m
+             ├─systemd-journald.service 
+             │ └─[0;38;5;245m257 /lib/systemd/systemd-journald[0m
+             ├─unattended-upgrades.service 
+             │ └─[0;38;5;245m950 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal[0m
+             ├─NetworkManager.service 
+             │ └─[0;38;5;245m766 /usr/sbin/NetworkManager --no-daemon[0m
+             ├─snapd.service 
+             │ └─[0;38;5;245m789 /usr/lib/snapd/snapd[0m
+             ├─gdm.service 
+             │ └─[0;38;5;245m994 /usr/sbin/gdm3[0m
+             ├─switcheroo-control.service 
+             │ └─[0;38;5;245m790 /usr/libexec/switcheroo-control[0m
+             ├─uuidd.service 
+             │ └─[0;38;5;245m1385 /usr/sbin/uuidd --socket-activation[0m
+             ├─mysql.service 
+             │ └─[0;38;5;245m1464 /usr/sbin/mysqld[0m
+             ├─rsyslog.service 
+             │ └─[0;38;5;245m785 /usr/sbin/rsyslogd -n -iNONE[0m
+             ├─mongod.service 
+             │ └─[0;38;5;245m22925 /usr/bin/mongod --config /etc/mongod.conf[0m
+             ├─bt.service 
+             │ ├─[0;38;5;245m1139 /www/server/panel/pyenv/bin/python /www/server/panel/BT-Task[0m
+             │ └─[0;38;5;245m1391 /www/server/panel/pyenv/bin/python /www/server/panel/BT-Panel[0m
+             ├─kerneloops.service 
+             │ ├─[0;38;5;245m1148 /usr/sbin/kerneloops --test[0m
+             │ └─[0;38;5;245m1150 /usr/sbin/kerneloops[0m
+             ├─cups-browsed.service 
+             │ └─[0;38;5;245m925 /usr/sbin/cups-browsed[0m
+             ├─cups.service 
+             │ └─[0;38;5;245m764 /usr/sbin/cupsd -l[0m
+             ├─upower.service 
+             │ └─[0;38;5;245m1466 /usr/lib/upower/upowerd[0m
+             ├─systemd-resolved.service 
+             │ └─[0;38;5;245m713 /lib/systemd/systemd-resolved[0m
+             ├─udisks2.service 
+             │ └─[0;38;5;245m793 /usr/lib/udisks2/udisksd[0m
+             ├─acpid.service 
+             │ └─[0;38;5;245m759 /usr/sbin/acpid[0m
+             ├─smbd.service 
+             │ ├─[0;38;5;245m1420 /usr/sbin/smbd --foreground --no-process-group[0m
+             │ ├─[0;38;5;245m1495 /usr/sbin/smbd --foreground --no-process-group[0m
+             │ ├─[0;38;5;245m1496 /usr/sbin/smbd --foreground --no-process-group[0m
+             │ └─[0;38;5;245m1522 /usr/lib/x86_64-linux-gnu/samba/samba-bgqd --ready-signal-fd=45 --parent-watch-fd=11 --debuglevel=0 -F[0m
+             ├─dbus.service 
+             │ └─[0;38;5;245m765 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only[0m
+             ├─systemd-timesyncd.service 
+             │ └─[0;38;5;245m714 /lib/systemd/systemd-timesyncd[0m
+             ├─avahi-daemon.service 
+             │ ├─[0;38;5;245m761 avahi-daemon: running [chilengue-devops.local][0m
+             │ └─[0;38;5;245m854 avahi-daemon: chroot helper[0m
+             └─systemd-logind.service 
+               └─[0;38;5;245m791 /lib/systemd/systemd-logind[0m
